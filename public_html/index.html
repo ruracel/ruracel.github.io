@@ -11,15 +11,16 @@
 <div data-spy="scroll" data-offset="0">
 
   <!-- Header -->
-	<div id="head" class="q-head">
+	<div id="head" class="q-head" ng-controller="HeaderController as ctrl">
 		<div class="q-head-cortain"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<img src="files/images/mic.png" alt="Opera Singer" class="img-circle q-mic" />
-					<h1>Irina Rurac</h1>
-					<p class="lead">Mezzo Soprano</p>
-					<div class="clearfix"></div>
+				<div class="col-md-6 q-head-title">
+					<div class="q-head-title-image"><img src="files/images/mic.png" alt="Opera Singer" class="img-circle q-mic" /></div>
+					<div class="q-head-title-content">
+						<h1>Irina Rurac</h1>
+						<p class="lead">Mezzo Soprano</p>
+					</div>	
 				</div>
 				<div class="col-md-6 q-menu">
           <div class="btn-toolbar pull-right">
@@ -32,18 +33,33 @@
           <div class="clearfix"></div>
 				</div>
 			</div>
-			<br /><br /><br />
-			<br /><br /><br />
-			<br /><br /><br />
-			<br /><br />
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-          <p class="q-slogan">My Slogan Comes Here</>
+          			<p class="q-slogan">{{ ctrl.slogan }}</>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+	<div class="qFlexHead">
+		<div class="qCortain"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="qMicrophone">
+						<img src="files/images/mic.png" alt="Opera Singer" class="img-circle" />
+					</div>
+					<div class="qTitle">
+						<h1>Irina Rurac</h1>
+						<p>Mezzo Soprano</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Biography -->
 	<div id="biography" class="q-biography q-section">

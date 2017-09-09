@@ -1,4 +1,5 @@
 var data = {
+  slogan: 'Goodness also comes through music, because it is conditioned by love.',
   gallery: [{
       url: 'https://lh3.googleusercontent.com/Z4nD9NDo22iXEQ5rM9CUU7LdBg6FyKTfyr0eQxg8FuArhIqm7MwjOFHFut0M7dNi8cEqkwnYhxyghxyLBNqsXJzsndphOk0LJIEUXIeAhtdEIfRT-5Ip_n-oq-XoZKa9paeUVP8jnSY=w514-h770-no'
     },{
@@ -17,6 +18,9 @@ var data = {
 var PHOTOS_IN_ROW = 3;
 
 angular.module('app', [])
+  .controller('HeaderController', function() {
+    this.slogan = data.slogan;
+  })
   .controller('GalleryController', function() {
     var items = [];
 

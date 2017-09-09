@@ -1,9 +1,24 @@
+@font-face {
+   font-family: GreatVibes; 
+   src: url('../fonts/GreatVibes-Regular.ttf');
+} 
+
+@font-face {
+   font-family: ChopinScript; 
+   src: url('../fonts/ChopinScript.ttf');
+} 
+
+@font-face {
+   font-family: RegencyScript; 
+   src: url('../fonts/RegencyScriptFLF.ttf');
+} 
+
 .q-head {
 	width: 100%;
 	height: 600px;
 	background: url('../images/theater2.jpg') no-repeat center -400px;
 	padding-top: 60px;
-	color: #fff;
+	color: #db3227;
 	position: relative;
 }
 
@@ -18,6 +33,30 @@
     filter: alpha(opacity=60);
 }
 
+.q-head-title-image {
+	width: 120px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.q-head-title-content {
+	display: inline-block;
+	color: #fff;
+	font-family: 'RegencyScript';
+	margin-left: 25px;
+}
+
+.q-head-title-content h1 {
+	font-size: 6em;
+	margin: 0;
+}
+
+.q-head-title-content p {
+	font-size: 3em;
+	margin: -25px 0 0 0;
+
+}
+
 .q-head .q-mic {
 	background: #fff;
 	width: 120px;
@@ -27,10 +66,13 @@
 
 .q-head .q-menu a {
 	color: #fff;
+	font-family: 'RegencyScript';
+	font-size: 2em;
 }
 
 .q-head .q-menu a:hover {
-	text-decoration: underline;
+	color: #e09a1f;
+	text-decoration: none;
 }
 
 .q-menu a.btn-link {
@@ -38,9 +80,11 @@
 }
 
 .q-slogan {
+	padding-top: 150px;
   text-align: center;
-  font-size: 3em;
-  font-style: italic;
+  font-size: 4.5em;
+  font-family: 'RegencyScript';
+  color: #e09a1f;
 }
 
 .q-section {
@@ -73,4 +117,60 @@
 	background: #0c0c0c;
 	color: #ccc;
   padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.qFlexHead {
+	height: 100px;
+	position: relative;
+	background: url('../images/theater2.jpg') no-repeat center -400px;
+
+	font-family: 'RegencyScript';
+  	color: #e09a1f;
+}
+
+.qFlexHead .qCortain {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background: #000;
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.qFlexHead .qMicrophone {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0 0 0;
+}
+
+.qFlexHead .qMicrophone img {
+	vertical-align: top;
+	background: #fff;
+	width: 80px;
+}
+
+.qFlexHead .qTitle {
+	display: inline-block;
+	margin: 5px 0 0 20px;
+}
+
+.qFlexHead .qTitle h1 {
+	margin: 0;
+	font-size: 4em;
+}
+
+.qFlexHead .qTitle p {
+	margin: -25px 0 0 0;
+	font-size: 2.5em;
 }

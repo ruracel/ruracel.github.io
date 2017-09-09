@@ -1,7 +1,7 @@
 var data = {
   slogan: 'Goodness also comes through music, because it is conditioned by love.',
   menu: [{
-    title: 'Home', anchor: 'home'
+    title: 'Home', anchor: 'head'
   },{
     title: 'Biography', anchor: 'biography'
   },{
@@ -51,18 +51,23 @@ angular.module('app', [])
     console.log(this.items);
 });
 
-var DOWN_OFFSET_THRESHOD = 500;
-var UP_OFFSET_THRESHOD = 100;
-
-var mainHeadRef = $('#head');
 var flexHeadRef = $('#flexHead');
-
-$(window).scroll(function(event) {
+var flexHeadHandler = function() {
   var topOffset = $(this).scrollTop();
 
-  if (topOffset >= DOWN_OFFSET_THRESHOD) {
+  if (topOffset >= 500) {
     flexHeadRef.slideDown();
   } else {
     flexHeadRef.hide();
   }
+}
+
+$(window).scroll(flexHeadHandler);
+
+$(document).ready(function() {
+  flexHeadHandler();
+}).on('click', '.x-scroll-to', function(e) {
+  e.preventDefault();
+  var targetOffset = $($(this).attr('href')).offset().top;
+  $('html,body').animate({scrollTop: targetOffset - 150});
 });

@@ -183,10 +183,12 @@
 	margin-top: 25px;
 }
 
-.qFlexHead .qMenu a {
+.qFlexHead .qMenu a,
+.qFlexHead .qMenu a:visited {
 	color: #fff;
 	font-family: 'RegencyScript';
 	font-size: 2.2em;
+	text-decoration: none;
 }
 
 .qFlexHead .qMenu a:hover {

@@ -8,7 +8,7 @@
 </head>
 
 <body ng-app="app">
-<div data-spy="scroll" data-offset="0">
+<div>
 
   <!-- Header -->
 	<div id="head" class="q-head" ng-controller="HeaderController as ctrl">
@@ -23,14 +23,12 @@
 					</div>	
 				</div>
 				<div class="col-md-6 q-menu">
-          <div class="btn-toolbar pull-right">
-            <a class="btn btn-link" href="#head">Home</a>
-            <a class="btn btn-link" href="#biography">Biography</a>
-            <a class="btn btn-link" href="#recordngs">Recordings</a>
-            <a class="btn btn-link" href="#gallery">Gallery</a>
-            <a class="btn btn-link" href="#contacts">Contacts</a>
-          </div>
-          <div class="clearfix"></div>
+					<div class="qMenu" ng-controller="MenuController as ctrl">
+						<div class="btn-toolbar pull-right">
+							<a class="btn btn-link x-scroll-to" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -43,6 +41,7 @@
 	</div>
 
 
+	<!-- Flex Header -->
 	<div id="flexHead" class="qFlexHead">
 		<div class="qCortain"></div>
 		<div class="container">
@@ -59,8 +58,9 @@
 				<div class="col-md-8">
 					<div class="qMenu" ng-controller="MenuController as ctrl">
 						<div class="btn-toolbar pull-right">
-							<a class="btn btn-link" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
+							<a class="btn btn-link x-scroll-to" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
 						</div>
+						<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
@@ -122,8 +122,9 @@
 		</div>
 	</div>
 
+
   <!-- Recordings -->
-	<div id="recordngs" class="q-recordngs q-section">
+	<div id="recordings" class="q-recordngs q-section">
 		<div class="container">
 			<h1>Recordings</h1>
 			<br />

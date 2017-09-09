@@ -126,11 +126,15 @@
 
 
 
-
-
 .qFlexHead {
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+
+	width: 100%;
 	height: 100px;
-	position: relative;
+	
 	background: url('../images/theater2.jpg') no-repeat center -400px;
 
 	font-family: 'RegencyScript';
@@ -173,4 +177,19 @@
 .qFlexHead .qTitle p {
 	margin: -25px 0 0 0;
 	font-size: 2.5em;
+}
+
+.qFlexHead .qMenu {
+	margin-top: 25px;
+}
+
+.qFlexHead .qMenu a {
+	color: #fff;
+	font-family: 'RegencyScript';
+	font-size: 2.2em;
+}
+
+.qFlexHead .qMenu a:hover {
+	color: #e09a1f;
+	text-decoration: none;
 }

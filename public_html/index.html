@@ -43,17 +43,24 @@
 	</div>
 
 
-	<div class="qFlexHead">
+	<div id="flexHead" class="qFlexHead">
 		<div class="qCortain"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<div class="qMicrophone">
 						<img src="files/images/mic.png" alt="Opera Singer" class="img-circle" />
 					</div>
 					<div class="qTitle">
 						<h1>Irina Rurac</h1>
 						<p>Mezzo Soprano</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="qMenu" ng-controller="MenuController as ctrl">
+						<div class="btn-toolbar pull-right">
+							<a class="btn btn-link" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,16 @@
 var data = {
   slogan: 'Goodness also comes through music, because it is conditioned by love.',
+  menu: [{
+    title: 'Home', anchor: 'home'
+  },{
+    title: 'Biography', anchor: 'biography'
+  },{
+    title: 'Recordings', anchor: 'recordings'
+  },{
+    title: 'Gallery', anchor: 'gallery'
+  },{
+    title: 'Contacts', anchor: 'contacts'
+  }],
   gallery: [{
       url: 'https://lh3.googleusercontent.com/Z4nD9NDo22iXEQ5rM9CUU7LdBg6FyKTfyr0eQxg8FuArhIqm7MwjOFHFut0M7dNi8cEqkwnYhxyghxyLBNqsXJzsndphOk0LJIEUXIeAhtdEIfRT-5Ip_n-oq-XoZKa9paeUVP8jnSY=w514-h770-no'
     },{
@@ -21,6 +32,9 @@ angular.module('app', [])
   .controller('HeaderController', function() {
     this.slogan = data.slogan;
   })
+  .controller('MenuController', function() {
+    this.items = data.menu;
+  })
   .controller('GalleryController', function() {
     var items = [];
 
@@ -35,4 +49,20 @@ angular.module('app', [])
     this.data = items;
 
     console.log(this.items);
+});
+
+var DOWN_OFFSET_THRESHOD = 500;
+var UP_OFFSET_THRESHOD = 100;
+
+var mainHeadRef = $('#head');
+var flexHeadRef = $('#flexHead');
+
+$(window).scroll(function(event) {
+  var topOffset = $(this).scrollTop();
+
+  if (topOffset >= DOWN_OFFSET_THRESHOD) {
+    flexHeadRef.slideDown();
+  } else {
+    flexHeadRef.hide();
+  }
 });

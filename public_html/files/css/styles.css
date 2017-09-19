@@ -164,8 +164,9 @@
 	margin-top: -20px;
 }
 
-.qBiography .q-description {
-	font-style: italic;
+.qBiography .q-description p {
+	font-size: 1.2em;
+	text-indent: 15px;
 }
 
 .qBiography .qBiographyList h1 {

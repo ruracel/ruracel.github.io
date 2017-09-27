@@ -12,24 +12,19 @@ var data = {
       title: 'Contacts', anchor: 'contacts'
     }],
     gallery: [[{
-        url: 'https://lh3.googleusercontent.com/Nkg17nkvA3cdzC0fjdBob66irqkvgp7B22_RYuAIr5nw28Png-qs4M00vGuyknqdG032Dtv3yummLWf-qgGnO5rdwIax2r8WNj6idf_u8NYH0sEaZiNXyFm7V158liaHxxyn2X3qIA=w634-h950-no',
-        cols: 4
+        url: 'https://lh3.googleusercontent.com/_A2OY0Jgi4u-P-tTqt--eCIQEbWwGeZOWMR4idb_gYrDCjcBiaFqkhQE1d9tQJRKydeiPccCoPYC21KtzyCnxo6lhVHOvpqeNL53yXQd31R8dJZWPp1U28DPmbyaTVPBKI2kj4QINA=w634-h950-no',
+        cols: 3
     },{
         url: 'https://lh3.googleusercontent.com/1n2bcxnnkoJmcl5zN5AtRTsPI2GBsoEz6pN2laD9jTyla_agF16eq7ZQhP2FbZJdtN26xvpVdLUicMMfTgAGsPsaxiT95yOeKxaOB4Y9qu-oDEXqf7XnUPHQJWaXSQJFzwfiBZ6W6g=w634-h950-no',
-        cols: 4
+        cols: 3
     },{
-        url: 'https://lh3.googleusercontent.com/_A2OY0Jgi4u-P-tTqt--eCIQEbWwGeZOWMR4idb_gYrDCjcBiaFqkhQE1d9tQJRKydeiPccCoPYC21KtzyCnxo6lhVHOvpqeNL53yXQd31R8dJZWPp1U28DPmbyaTVPBKI2kj4QINA=w634-h950-no',
-        cols: 4
-    }],[{
-        url: 'https://lh3.googleusercontent.com/dv4Zhl1Z8Ee1420QTlG-UxdGaFhaNosZV-iRtD87i-4BRCGo6vZTSF0q-QZR-b2JqH5T149Zn3WbvlAOnfJoEQnF9gLsWyTpyybSDLOzuRJhF1eNHycSfn5LtxFbw1AxNZJAhwW3XQ=w634-h950-no',
-        cols: 4
-    },{
-        url: 'https://lh3.googleusercontent.com/5ssyruKs4LiJh0NWirlI0PLZNldWRlNH2Pk8TbhKTCzv1PqLTvOQIOcY4PDny0RyNd31vj3SgfU45jigRHp6Z73r-KvclwGHRJClXnIHbbxapoLCWxL3IQo1EWVEFWBwgaRvQG1ntQ=w507-h760-no',
-        cols: 4
+        url: 'https://lh3.googleusercontent.com/Nkg17nkvA3cdzC0fjdBob66irqkvgp7B22_RYuAIr5nw28Png-qs4M00vGuyknqdG032Dtv3yummLWf-qgGnO5rdwIax2r8WNj6idf_u8NYH0sEaZiNXyFm7V158liaHxxyn2X3qIA=w634-h950-no',
+        cols: 3
     },{
         url: 'https://lh3.googleusercontent.com/zqP-fe5kVBGu-zMPLWUX1pFhpbqgy1S1Dty5iUhp74jWIJ5lTZ8UfUEPcrbc9Zni35SUt6pDjMWUC0ud8R9oFGRPZoGZVl5yif6Y8jDDxr4_MIguBMuK90hNkCcGhSju4nFxRHNYfzxiODO2yVtjnHO49PE8d8e260s3xNy4w_jej2StVK7wd_Z8huw-PffAvWyZNuhWw4c04B8dPCFKBC789qQyNTGYY3laupENby85m_ubxH8unc6tfOrx0IhsKXNcIsfxe2vQIQRcLsAwkPVBjvRaKYWg710ek_vAkdWcXQTVFyDny4q_xLz086plA6mR0fthjgq03jxw3LuEZmYGQ2JbaIq76JTQDI3HImzagQt2TAQYeABL6zrDwg9_lvYPZtCHrqNnXkcf0AstYdQIR9NCwSA1bPg-M-Dm50f8Bugd9j2Uqjf7vo1kXzpjLkG0aoBn75L8350rmx_dx1VdaAbEXNB7p-yV6sKBn3zMxeSktM-qgrspuCm9pzgeSmdHZP4eYIu7Lj7KCS421vk0OOMIKYsGE9Oi77biJP2OgxYhGH-6eNFRUqxF2YwzuSovQxIjovbat97-JNoGr0d4BCYrhfBeyhs7EsYCpg=w634-h950-no',
-        cols: 4
-    }],[{
+        cols: 3
+    }],
+    [{
         url: 'https://lh3.googleusercontent.com/0wLi2Z54NSpyGnmwpMVTzT1TGXcFaNlteI6dDZrQwEnqaEMk91JmCrUwWiRWI1fmcIIene7W_w4fN4KZY6ZrdiZra84KGqoxIFsgZJr5ekkjacVsE9YcGyPT23AFLW0zABG1Xz4qLQ=w1135-h950-no',
         cols: 7
     },{
@@ -61,13 +56,14 @@ var data = {
             { author: 'G. Verdi', line_1: '"La Traviata", role Flora' },
             { author: 'N.Rimsly-Korsakov', line_1: '"The Tsar\'s Bride", role Liubasha' },
             { author: 'G. Bizet', line_1: '"Carmen", role Carmen' },
-            { author: 'P.I.Tchaikovsky', line_1: '"Eugen Oneghin", role Olga' },
+            { author: 'P.I. Tchaikovsky', line_1: '"Eugen Oneghin", role Olga' },
             { author: 'U.Giordano', line_1: '"Andrea Chenier", role Bersi' },
-            { author: 'P.I.Tchaikovsky', line_1: '"Jolanta", role Laura' },
+            { author: 'P.I. Tchaikovsky', line_1: '"Jolanta", role Laura' },
             { author: 'G. Verdi', line_1: '"Rigoletto", role Maddalena, role Giovanna' },
             { author: 'J. Massenet', line_1: '"Werther", role Charlotte' },
             { author: 'G. Verdi', line_1: '"Nabucco", role Fenena' },
-            { author: 'J. Haydn', line_1: '"Il mondo della Luna", role Ernesto' }
+            { author: 'J. Haydn', line_1: '"Il mondo della Luna", role Ernesto' },
+            { author: 'P.I. Tchaikovsky', line_1: '"The Queen of spades", role Polina' }
     ]},{
         category: 'Oratories and Cantatas',
         items: [

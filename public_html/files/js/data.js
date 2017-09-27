@@ -52,18 +52,18 @@ var data = {
     repertoire: [{
         category: 'Opera',
         items: [
-            { author: 'W.A. Mozart', line_1: '"Nozze di Figaro", role Cherubino, role Marcellina' },
-            { author: 'G. Verdi', line_1: '"La Traviata", role Flora' },
-            { author: 'N.Rimsly-Korsakov', line_1: '"The Tsar\'s Bride", role Liubasha' },
-            { author: 'G. Bizet', line_1: '"Carmen", role Carmen' },
-            { author: 'P.I. Tchaikovsky', line_1: '"Eugen Oneghin", role Olga' },
-            { author: 'U.Giordano', line_1: '"Andrea Chenier", role Bersi' },
-            { author: 'P.I. Tchaikovsky', line_1: '"Jolanta", role Laura' },
-            { author: 'G. Verdi', line_1: '"Rigoletto", role Maddalena, role Giovanna' },
-            { author: 'J. Massenet', line_1: '"Werther", role Charlotte' },
-            { author: 'G. Verdi', line_1: '"Nabucco", role Fenena' },
-            { author: 'J. Haydn', line_1: '"Il mondo della Luna", role Ernesto' },
-            { author: 'P.I. Tchaikovsky', line_1: '"The Queen of spades", role Polina' }
+            { author: 'W.A. Mozart', line_1: '"Nozze di Figaro", Cherubino, Marcellina' },
+            { author: 'G. Verdi', line_1: '"La Traviata", Flora' },
+            { author: 'N. Rimsky-Korsakov', line_1: '"The Tsar\'s Bride", Liubasha' },
+            { author: 'G. Bizet', line_1: '"Carmen", Carmen' },
+            { author: 'P.I. Tchaikovsky', line_1: '"Eugen Oneghin", Olga' },
+            { author: 'U. Giordano', line_1: '"Andrea Chenier", Bersi' },
+            { author: 'P.I. Tchaikovsky', line_1: '"Jolanta", Laura' },
+            { author: 'G. Verdi', line_1: '"Rigoletto", Maddalena, Giovanna' },
+            { author: 'J. Massenet', line_1: '"Werther", Charlotte' },
+            { author: 'G. Verdi', line_1: '"Nabucco", Fenena' },
+            { author: 'J. Haydn', line_1: '"Il mondo della Luna", Ernesto' },
+            { author: 'P.I. Tchaikovsky', line_1: '"The Queen of spades", Polina' }
     ]},{
         category: 'Oratories and Cantatas',
         items: [
@@ -75,32 +75,32 @@ var data = {
         category: 'Selected arias',
         items: [
             {author: 'P. Mascagni', line_1: 'Romanza di Santuzza, from opera Cavalleria Rusticana' },
-            {author: 'G.Verdi', line_1: 'aria Eboli "O don fatale" from opera Don Carlo'},
-            {author: 'G.Donizetti', line_1: 'recitativo ed aria di Leonora "Fia dunque e vero" , from opera "La Favorita"'},
+            {author: 'G. Verdi', line_1: 'aria Eboli "O don fatale" from opera Don Carlo'},
+            {author: 'G. Donizetti', line_1: 'recitativo ed aria di Leonora "Fia dunque e vero" , from opera "La Favorita"'},
             {author: 'W.A. Mozart', line_1: 'recitativo ed aria di Dorabella "Ah, scostati", from opera "Cosi fantutte"'},
             {author: 'R. Strauss', line_1: 'Komponist aria "Sein wir wieder gut" from opera "Ariadne auf Naxos"'},
-            {author: 'N.Rimsky-Korsakov', line_1: 'aria Liubavy from opera "Sadko"'},
+            {author: 'N. Rimsky-Korsakov', line_1: 'aria Liubavy from opera "Sadko"'},
             {author: 'C. Saint-Saens', line_1: 'arias Dadila "Mon coer souve a ta voix" and "Samson recherchant ma presence" from opera "Samson et Dalila"'},
-            {author: 'M .Mussorgsky', line_1: 'Marfa\'s aria from "Khovanshchina"'},
-            {author: 'H.Purcell', line_1: 'recitativo and air of Dido from opera "Dido and Aenas"'},
+            {author: 'M. Mussorgsky', line_1: 'Marfa\'s aria from "Khovanshchina"'},
+            {author: 'H. Purcell', line_1: 'recitativo and air of Dido from opera "Dido and Aenas"'},
             {author: 'G.F. Handel', line_1: 'Alcina\'s aria from opera "Alcina"'},
-            {author: 'G.Rossini', line_1: 'aria di Berta from opera "Il barbiere di Siviglia"'},
-            {author: 'G .Donizetti', line_1: 'Smeton \'s aria "Deh non voler constringere" from opera "Anna Bolena'},
-            {author: 'K.Molchaninov', line_1: 'Zhenky\'s aria from opera "The dawns here are quiet"'},
-            {author: 'A.Dvorak', line_1: 'Jezibaba\'s aria "Cury mury fuk" from opera Rusalka'},
-            {author: 'C.W.Gluck', line_1: 'Orfeu\'s aria "J\'ai perdu mon Eurydice" from opera "Orphee et Eurydice"'}
+            {author: 'G. Rossini', line_1: 'aria di Berta from opera "Il barbiere di Siviglia"'},
+            {author: 'G. Donizetti', line_1: 'Smeton \'s aria "Deh non voler constringere" from opera "Anna Bolena'},
+            {author: 'K. Molchaninov', line_1: 'Zhenky\'s aria from opera "The dawns here are quiet"'},
+            {author: 'A. Dvorak', line_1: 'Jezibaba\'s aria "Cury mury fuk" from opera Rusalka'},
+            {author: 'C.W. Gluck', line_1: 'Orfeu\'s aria "J\'ai perdu mon Eurydice" from opera "Orphee et Eurydice"'}
         ]
     },{
         category: 'Selected arias from Cantatas, Oratories and other musical cycles',
         items: [
-            {author: 'A.Vivaldi', line_1: 'di Abra "Si fulgida per te" from oratorio "Juditha Triumphans"'},
-            {author: 'G.F.Hendel', line_1: '"Dignare"'},
-            {author: 'J.S.Bach', line_1: '"Erbarme dich" from oratorio "Matthaus Passion"'},
-            {author: 'J.S.Bach', line_1: '"Et exultavit" from cantata "Magnificat"'},
-            {author: 'G.B.Pergolesi', line_1: '"Eja Mater" from "Stabat Mater"'},
-            {author: 'A.Dvorak', line_1: '"Inflamatus" from cantata "Stabat Mater"'},
-            {author: 'A.Dvorak', line_1: '"Ave Maria"'},
-            {author: 'F.P. Shubert', line_1: '"Ave Maria"'},
+            {author: 'A. Vivaldi', line_1: 'di Abra "Si fulgida per te" from oratorio "Juditha Triumphans"'},
+            {author: 'G.F. Handel', line_1: '"Dignare"'},
+            {author: 'J.S. Bach', line_1: '"Erbarme dich" from oratorio "Matthaus Passion"'},
+            {author: 'J.S. Bach', line_1: '"Et exultavit" from cantata "Magnificat"'},
+            {author: 'G.B. Pergolesi', line_1: '"Eja Mater" from "Stabat Mater"'},
+            {author: 'A. Dvorak', line_1: '"Inflamatus" from cantata "Stabat Mater"'},
+            {author: 'A. Dvorak', line_1: '"Ave Maria"'},
+            {author: 'F.P. Schubert', line_1: '"Ave Maria"'},
             {author: 'G. Caccini', line_1: '"Ave Maria"'},
             {author: 'G. Caccini', line_1: '"Madrigal"'},
             {author: 'L. Luzzi', line_1: '"Ave Maria"'},
@@ -119,7 +119,7 @@ var data = {
             {author: 'G. Verdi', line_1: 'duet Azucena ed Manrico "Si, la stanchezza" from opera "Il Trovatore"'},
             {author: 'P. Mascagni', line_1: 'duet Santuzza ed Turiddu from opera "Cavalleria Rusticana"'},
             {author: 'L. Delibes', line_1: 'Flower duet from opera "Lakme"'},
-            {author: 'J. Offenbach', line_1: 'duet Barcarolle from "The Tales of Hoffman"ka'},
+            {author: 'J. Offenbach', line_1: 'duet Barcarolle from "The Tales of Hoffman"'},
             {author: 'G. Verdi', line_1: 'duet Aida and Amneris from opera "Aida"'}
         ]
     },{
@@ -131,10 +131,10 @@ var data = {
             {author: 'A. Rubinstein', line_1: '"Noch"'},
             {author: 'A. Dvorak', line_1: '"Kdyz mne stara matka"'},
             {author: 'I.A. Lara', line_1: '"Granada"'},
-            {author: 'G. Rossini', line_1: '"Canzinetta Spagnuola"'},
+            {author: 'G. Rossini', line_1: '"Canzonetta Spagnuola"'},
             {author: 'L. Rellstab', line_1: '"Standchen"'},
             {author: 'F. Grieg', line_1: '"Mit Einer Wasserlilie"'},
-            {author: 'F. Shubert', line_1: '"An die Musik"'},
+            {author: 'F. Schubert', line_1: '"An die Musik"'},
             {author: 'J. Brahms', line_1: '"Liebestreu"'}
         ]
     }]

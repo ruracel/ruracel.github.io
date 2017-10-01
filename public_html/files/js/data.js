@@ -67,8 +67,8 @@ var data = {
     ]},{
         category: 'Oratories and Cantatas',
         items: [
-            { author: 'G. Verdi', line_1: 'Reqviem' },
-            { author: 'W.A. Mozart', line_1: 'Reqviem'},
+            { author: 'G. Verdi', line_1: 'Requiem' },
+            { author: 'W.A. Mozart', line_1: 'Requiem'},
             { author: 'A. Bruckner', line_1: 'Te Deum'}
         ]
     },{
@@ -76,27 +76,27 @@ var data = {
         items: [
             {author: 'P. Mascagni', line_1: 'Romanza di Santuzza, from opera Cavalleria Rusticana' },
             {author: 'G. Verdi', line_1: 'Aria Eboli "O don fatale" from opera Don Carlo'},
-            {author: 'G. Donizetti', line_1: 'Recitativo ed aria di Leonora "Fia dunque e vero" , from opera "La Favorita"'},
-            {author: 'W.A. Mozart', line_1: 'Recitativo ed aria di Dorabella "Ah, scostati", from opera "Cosi fantutte"'},
+            {author: 'G. Donizetti', line_1: 'Recitativo ed Aria di Leonora "Fia dunque e vero" , from opera "La Favorita"'},
+            {author: 'W.A. Mozart', line_1: 'Recitativo ed Aria di Dorabella "Ah, scostati", from opera "Cosi fantutte"'},
             {author: 'R. Strauss', line_1: 'Komponist aria "Sein wir wieder gut" from opera "Ariadne auf Naxos"'},
             {author: 'N. Rimsky-Korsakov', line_1: 'Aria Liubavy from opera "Sadko"'},
             {author: 'C. Saint-Saens', line_1: 'Arias Dadila "Mon coer souve a ta voix" and "Samson recherchant ma presence" from opera "Samson et Dalila"'},
             {author: 'M. Mussorgsky', line_1: 'Marfa\'s aria from "Khovanshchina"'},
-            {author: 'H. Purcell', line_1: 'Recitativo and air of Dido from opera "Dido and Aenas"'},
+            {author: 'H. Purcell', line_1: 'Recitativo and Air of Dido from opera "Dido and Aenas"'},
             {author: 'G.F. Handel', line_1: 'Alcina\'s aria from opera "Alcina"'},
             {author: 'G. Rossini', line_1: 'Aria di Berta from opera "Il barbiere di Siviglia"'},
             {author: 'G. Donizetti', line_1: 'Smeton \'s aria "Deh non voler constringere" from opera "Anna Bolena'},
             {author: 'K. Molchaninov', line_1: 'Zhenky\'s aria from opera "The dawns here are quiet"'},
             {author: 'A. Dvorak', line_1: 'Jezibaba\'s aria "Cury mury fuk" from opera Rusalka'},
-            {author: 'C.W. Gluck', line_1: '"J\'ai perdu mon Eurydice" - aria from "Orphée et Eurydice"'}
+            {author: 'C.W. Gluck', line_1: '"J\'ai perdu mon Eurydice" - aria from "Orphee et Eurydice"'}
         ]
     },{
         category: 'Selected arias from Cantatas, Oratories and other musical cycles',
         items: [
             {author: 'A. Vivaldi', line_1: 'Aria di Abra'},
             {author: 'G.F. Handel', line_1: '"Dignare" from "Dettingen Te Deum"'},
-            {author: 'J.S. Bach', line_1: 'Erbarme - from "Matthäus Passion"'},
-            {author: 'J.S. Bach', line_1: 'Et exultavit – "Magnificat"'},
+            {author: 'J.S. Bach', line_1: 'Erbarme - from "Matthaus Passion"'},
+            {author: 'J.S. Bach', line_1: 'Et exultavit - "Magnificat"'},
             {author: 'G.B. Pergolesi', line_1: '"Eja Mater" from "Stabat Mater"'},
             {author: 'A. Dvorak', line_1: 'Inflammatus from "Stabat Mater"'},
             {author: 'A. Dvorak', line_1: '"Ave Maria"'},
@@ -111,7 +111,7 @@ var data = {
     },{
         category: 'Duets',
         items: [
-            {author: 'G. Franck', line_1: '"Panis Angelicus" "Ave Maria"'},
+            {author: 'G. Franck', line_1: '"Ave Maria"'},
             {author: 'A. Dvorak', line_1: '"O Sanctissima"'},
             {author: 'G.B. Pergolesi', line_1: '"Stabat Mater"'},
             {author: 'G.A. Rossini', line_1: '"Voga o Tonio" from "La regata Veneziana"'},

@@ -77,7 +77,7 @@ var data = {
             {author: 'P. Mascagni', line_1: 'Romanza di Santuzza, from opera Cavalleria Rusticana' },
             {author: 'G. Verdi', line_1: 'Aria Eboli "O don fatale" from opera Don Carlo'},
             {author: 'G. Donizetti', line_1: 'Recitativo ed Aria di Leonora "Fia dunque e vero" , from opera "La Favorita"'},
-            {author: 'W.A. Mozart', line_1: 'Recitativo ed Aria di Dorabella "Ah, scostati", from opera "Cosi fantutte"'},
+            {author: 'W.A. Mozart', line_1: 'Recitativo ed Aria di Dorabella "Ah, scostati", from opera "Cosi fan tutte"'},
             {author: 'R. Strauss', line_1: 'Komponist aria "Sein wir wieder gut" from opera "Ariadne auf Naxos"'},
             {author: 'N. Rimsky-Korsakov', line_1: 'Aria Liubavy from opera "Sadko"'},
             {author: 'C. Saint-Saens', line_1: 'Arias Dadila "Mon coer souve a ta voix" and "Samson recherchant ma presence" from opera "Samson et Dalila"'},

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="files/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="files/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="files/css/styles.css" />
+	<title>Irina Rurac :: Mezzo Soprano</title>
+
+	<script src="files/js/data.js?v=20170918"></script>
+</head>
+
+<body ng-app="app">
+<div>
+
+  <!-- Header -->
+	<div id="head" class="q-head">
+		<div class="q-head-cortain"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 q-head-title">
+					<div class="q-head-title-content">
+						<h1>Irina Rurac</h1>
+						<p class="lead">Mezzo Soprano</p>
+					</div>	
+				</div>
+				<div class="col-md-8 q-menu">
+					<div class="qMenu" ng-controller="MenuController as ctrl">
+						<div class="btn-toolbar pull-right">
+							<a class="btn btn-link x-scroll-to" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+          			<p class="q-slogan">Goodness also comes through music, because it is conditioned by love.</>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Flex Header -->
+	<div id="flexHead" class="qFlexHead">
+		<div class="qCortain"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="qTitle">
+						<h1>Irina Rurac</h1>
+						<p>Mezzo Soprano</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="qMenu" ng-controller="MenuController as ctrl">
+						<div class="btn-toolbar pull-right">
+							<a class="btn btn-link x-scroll-to" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Biography -->
+	<div id="biography" class="q-section qBiography" ng-controller="BiographyController as ctrl">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://lh3.googleusercontent.com/5ssyruKs4LiJh0NWirlI0PLZNldWRlNH2Pk8TbhKTCzv1PqLTvOQIOcY4PDny0RyNd31vj3SgfU45jigRHp6Z73r-KvclwGHRJClXnIHbbxapoLCWxL3IQo1EWVEFWBwgaRvQG1ntQ=w507-h760-no" alt="Irina Rurac Profile Photo" class="img-thumbnail" />
+				</div>
+				<div class="col-md-8">
+          <h1 class="q-name">Irina Rurac </h1>
+          <h3 class="q-name">Mezzo Soprano</h3>
+					<div class="q-description">
+						<p>Beginning from childhood, was inspired by the dream to sing, and include music as an 
+						important factor in her life. Road map was long, it started from school in a group with musical profile, continued 
+						with "Academy of Music, Theater and Fine Arts from Chisinau", Republic of Moldova and finally arrived to the local 
+						National Theater of Opera and Ballet "Maria Biesu".</p>
+						<p>There had her debut with some roles like Cherubino( Nozze di Figaro), Olga (Eugene Onegin) and others. During her 
+						activity on stage of her favorite theater, was collaborating with the Philharmonic Orchestra, Orchestra of Academy of Music 
+						and soloing in choirs.</p>
+						<p>One day, following her heart, woke up in Prague, searching for new opportunities to fulfill her 
+						desire to sing, joined The National Theater from Prague.</p>
+						<p>Also, her activity in Opera Ensemble Ticha - Opera, took her to 
+						participate in a series of Festivals from different countries like Italy (Trieste), Cyprus and cities of the Czech Republic 
+						(Jihlava, Trutnov, Ceske Budejovice).</p>
+						<p>The important thing that always is leading her behavior in this profession, is that 
+						the process of developing and working on a piece of creation is the biggest pleasure, when this attitude is mentioned it 
+						means that could be done till boundless.</p>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="row">
+				<div class="col-md-8 qBiographyList">
+					<h1 id="repertoire" class="ySectionName">Repertoire</h1>
+					<div ng-repeat="c in ctrl.data">
+						<h3>{{ c.category }}</h3>
+						<dl class="dl-horizontal">
+							<div ng-repeat="item in c.items">
+								<dt>{{ item.author }}</dt>
+								<dd>{{ item.line_1 }}</dd>
+							</div>
+						</dl>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="pull-right">
+						<div><a href="files/CV_Irina_Rurac.pdf" target="_blank" class="pull-right"><img src="files/images/pdfico.png" /></a></div>
+						<p class="text-center">Curriculum Vitae</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- Recordings -->
+	<div id="recordings" class="qRecordings q-section">
+		<div class="container">
+			<h1 class="ySectionName">Recordings</h1>
+			<div class="row">
+				<div class="col-md-4">
+					<p><strong>Dorabella's Aria "Ah, scostati"</strong>
+						<br />Opera "Cosi fan tutte"
+						<br /><em>W.A. Mozart</em>
+					</p>
+					<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/360007073&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4">
+					<p><strong>Charlotte's Aria "Werther .. Qui maurait dit"</strong>
+						<br />Opera "Werther"
+						<br /><em>J. Massenet</em>
+					</p>
+					<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/360006242&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4">
+					<p><strong>Aria Principessa di Bouillon "Acerba Volutta"</strong>
+						<br />Opera "Adriana Lecouvreur"
+						<br /><em>F. Cilea</em>
+					</p>
+					<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/360005486&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p><strong>Aria Liubasha</strong>
+						<br />Opera "The Tsar's Bride"
+						<br /><em>N. Rimsky - Korsakov</em>
+					</p>
+					<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/340888327&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4">
+					<p><strong>Eja Mater</strong> 
+						<br />"Stabat Mater"
+						<br /><em>V. Shuklina</em>
+					</p>
+					<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/266513457&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- Gallery -->
+	<div id="gallery" class="q-gallery q-section">
+		<div class="container">
+      <h1 class="ySectionName">My Photos</h1>
+      <br />
+      <div ng-controller="GalleryController as ctrl">
+        <div class="row" ng-repeat="row in ctrl.data">
+          <div class="col-md-{{ item.cols }}" ng-repeat="item in row">
+            <img src="{{ item.url }}" alt="" class="img-thumbnail" />
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+		</div>
+	</div>
+
+  <!-- Contacts -->
+	<div id="contacts" class="q-contacts q-section">
+		<div class="container">
+			<h1 class="ySectionName">Contact me</h1>
+      <br />
+      <div class="row">
+        <div class="col-md-8">
+          <h4>Tel: +420 736-503-438</h4>
+          <h4>Email: irina.ruracel@gmail.com</h4>
+        </div>
+      </div>
+
+		</div>
+	</div>
+</div>
+
+  <script src="files/js/jquery-3.2.1.min.js"></script>
+  <script src="files/js/bootstrap.min.js"></script>
+  <script src="files/js/angular.min.js"></script>
+  <script src="files/js/code.js?v=20170918"></script>
+
+</body>
+</html>

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="files/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="files/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="files/css/styles.css" />
-	<title>Irina Rurac :: Mezzo Soprano</title>
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="files/css/bootstrap.min.css" />
+  	<link rel="stylesheet" href="files/css/bootstrap-theme.min.css" />
+		<link rel="stylesheet" href="files/css/styles.css" />
 
-	<script src="files/js/data.js?v=20170918"></script>
+		<script src="files/js/data.js?v=20170918"></script>
+
+		<title>Irina Rurac :: Mezzo Soprano</title>
 </head>
 
 <body ng-app="app">
@@ -53,12 +56,16 @@
 					</div>
 				</div>
 				<div class="col-md-8">
+
+					<!-- Menu Controller -->
 					<div class="qMenu" ng-controller="MenuController as ctrl">
 						<div class="btn-toolbar pull-right">
 							<a class="btn btn-link x-scroll-to" ng-repeat="item in ctrl.items" href="#{{ item.anchor }}">{{ item.title }}</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
+					<!-- End Controller -->
+
 				</div>
 			</div>
 		</div>
@@ -169,6 +176,33 @@
 		</div>
 	</div>
 
+	<!-- Events -->
+	<div id="events" class="container q-section" ng-controller="EventController as ctrl">
+		<h1 class="ySectionName">Events</h1>
+		<div class="row">
+			<ng-container ng-repeat="event in ctrl.events | orderBy: orderFunction">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h4>{{ event.title }}<br /><small>{{ event.date | date: 'd MMM, yyyy HH:mm' }}<br />
+								<a href="{{ event.url }}" ng-if="event.url" target="_blank">{{ event.url | limitTo : 45 }}{{ event.url.length > 45 ? '...' : '' }}</a></small></h4>
+							
+							<address>
+								<strong>{{ event.address.title }}</strong><br>
+								<ng-container ng-if="event.address.line_1">{{ event.address.line_1 }}</ng-container>
+								<ng-container ng-if="event.address.line_2"><br />{{ event.address.line_2 }}</ng-container>
+								<ng-container ng-if="event.address.line_3"><br />{{ event.address.line_3 }}</ng-container>
+							</address>
+							<span class="label label-success" ng-if="eventTime(event.date) > 0">Coming ...</span>
+							<span class="label label-default" ng-if="eventTime(event.date) < 0">Had Place</span>
+							<span class="label label-warning" ng-if="eventTime(event.date) == 0">Today!</span>
+						</div>
+					</div>
+				</div>
+			</ng-container>
+		</div>
+	</div>
+
   <!-- Gallery -->
 	<div id="gallery" class="q-gallery q-section">
 		<div class="container">
@@ -204,7 +238,7 @@
   <script src="files/js/jquery-3.2.1.min.js"></script>
   <script src="files/js/bootstrap.min.js"></script>
   <script src="files/js/angular.min.js"></script>
-  <script src="files/js/code.js?v=20170918"></script>
-
+  <script src="files/js/moment.js"></script>
+	<script src="files/js/code.js?v=20180430"></script>
 </body>
 </html>

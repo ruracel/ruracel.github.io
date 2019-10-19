@@ -1,15 +1,17 @@
 var data = {
     slogan: 'Goodness also comes through music, because it is conditioned by love.',
     menu: [{
-      title: 'Biography', anchor: 'biography'
+        title: 'Biography', anchor: 'biography'
     },{
         title: 'Repertoire', anchor: 'repertoire'
     },{
-      title: 'Recordings', anchor: 'recordings'
+        title: 'Recordings', anchor: 'recordings'
     },{
-      title: 'Gallery', anchor: 'gallery'
+        title: 'Events', anchor: 'events'
     },{
-      title: 'Contacts', anchor: 'contacts'
+        title: 'Gallery', anchor: 'gallery'
+    },{
+        title: 'Contacts', anchor: 'contacts'
     }],
     gallery: [[{
         url: 'https://lh3.googleusercontent.com/_A2OY0Jgi4u-P-tTqt--eCIQEbWwGeZOWMR4idb_gYrDCjcBiaFqkhQE1d9tQJRKydeiPccCoPYC21KtzyCnxo6lhVHOvpqeNL53yXQd31R8dJZWPp1U28DPmbyaTVPBKI2kj4QINA=w634-h950-no',
@@ -137,5 +139,33 @@ var data = {
             {author: 'F. Schubert', line_1: '"An die Musik"'},
             {author: 'J. Brahms', line_1: '"Liebestreu"'}
         ]
+    }],
+    events: [{
+        title: 'Festival Jakuba Jana Ryby',
+        date: '2018-05-04T19:30:00+02:00',
+        url: 'https://www.rybuvfestival.cz/program/',
+        address: {
+            title: 'Kostel Povýšení sv. Kříže ve Starém Rožmitále',
+            line_1: 'Rybova, 262 42',
+            line_2: 'Rožmitál pod Třemšínem'
+        }
+    },{
+        title: 'Concert Cantores Cantant',
+        date: '2018-05-05T19:30:00+02:00',
+        url: 'http://www.klasterbroumov.cz/en/concert-cantores-cantant',
+        address: {
+            title: 'Church of st. Peter and Paul',
+            line_1: 'Kostelní nám. 224, 550 01',
+            line_2: 'Broumov'
+        }
+    },{
+        title: 'Velikonoční koncert v chrámu sv. Bartoloměje',
+        date: '2018-04-01T18:00:00+02:00',
+        url: 'https://www.facebook.com/events/2047767905463169/',
+        address: {
+            title: 'Chrám sv. Bartoloměje',
+            line_1: 'Karlovo náměstí 78, 280 12',
+            line_2: 'Kolín'
+        }
     }]
   };

@@ -167,5 +167,14 @@ var data = {
             line_1: 'Karlovo náměstí 78, 280 12',
             line_2: 'Kolín'
         }
+    },{
+        title: 'Koncert',
+        date: '2019-10-09T18:00:00+02:00',
+        url: '',
+        address: {
+            title: 'Rangherka',
+            line_1: 'Moskevská 120/21, 101 00 Praha 10-Vršovice',
+            line_2: 'Prague'
+        }
     }]
   };

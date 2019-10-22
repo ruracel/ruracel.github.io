@@ -176,5 +176,41 @@ var data = {
             line_1: 'Moskevská 120/21, 101 00 Praha 10-Vršovice',
             line_2: 'Prague'
         }
+    },{
+        title: 'Requiem Guiseppe Verdi',
+        date: '2019-11-01T19:00:00+02:00',
+        url: 'https://www.facebook.com/events/447827786091902/',
+        address: {
+            title: 'Kostel svatého Václava',
+            line_1: 'Československé armády, 564 01',
+            line_2: 'Žamberk'
+        }
+    },{
+        title: 'Requiem Guiseppe Verdi',
+        date: '2019-11-02T16:00:00+02:00',
+        url: 'https://www.facebook.com/events/2472947432819314/',
+        address: {
+            title: 'Chrám Sv. Bartoloměje',
+            line_1: 'Brandlova, 280 02',
+            line_2: 'Kolín'
+        }
+    },{
+        title: 'Requiem Guiseppe Verdi',
+        date: '2019-11-03T16:00:00+02:00',
+        url: 'https://www.facebook.com/events/1168580753352416/',
+        address: {
+            title: 'Kostel sv. Augustina',
+            line_1: 'Hřbitovní 674, 543 01',
+            line_2: 'Vrchlabí'
+        }
+    },{
+        title: 'Requiem Guiseppe Verdi',
+        date: '2019-11-17T16:00:00+02:00',
+        url: 'https://www.facebook.com/events/1168580753352416/',
+        address: {
+            title: 'Kostel svatého Antonína Velikého',
+            line_1: 'Kostelní 9/7, Nové Město, 460 01',
+            line_2: 'Liberec'
+        }
     }]
   };
